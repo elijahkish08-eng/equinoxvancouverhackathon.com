@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "How can I contact you with more questions?",
-    a: "Email us anytime at equinox@example.com. You can also reach out on our social media channels. We're always happy to help!",
+    a: "Email us anytime at equinox@example.com, or hop into our Discord server at discord.gg/V689CZHVac — we're always happy to help!",
   },
 ]
 
