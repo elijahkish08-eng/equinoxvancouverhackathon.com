@@ -43,7 +43,7 @@ export function HowItWorksSection() {
           alt=""
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-secondary/90 backdrop-blur-sm" />
+        <div className="absolute inset-0 bg-secondary/85" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-6xl">
