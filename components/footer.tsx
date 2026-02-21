@@ -33,6 +33,9 @@ export function Footer() {
           <a href="#donate" className="text-muted-foreground transition-colors hover:text-foreground">
             Donate
           </a>
+          <a href="/blogs" className="text-muted-foreground transition-colors hover:text-foreground">
+            Blogs
+          </a>
         </nav>
 
         <div className="flex items-center gap-6">
