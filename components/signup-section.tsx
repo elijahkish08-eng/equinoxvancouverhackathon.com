@@ -37,6 +37,16 @@ export function SignupSection() {
               <ExternalLink className="ml-2 h-4 w-4" />
             </a>
           </Button>
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            className="w-full font-semibold text-base border-primary text-primary hover:bg-primary/5"
+          >
+            <a href="https://discord.gg/V689CZHVac" target="_blank" rel="noopener noreferrer">
+              Join the Discord
+            </a>
+          </Button>
           <p className="text-xs text-muted-foreground">
             Open to anyone aged 13-19. By registering you agree to our code of conduct.
           </p>
