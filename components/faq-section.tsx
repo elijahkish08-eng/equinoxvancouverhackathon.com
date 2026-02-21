@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     q: "Am I eligible to participate?",
-    a: "If you're a teenager (ages 13-19), yes — we can't wait to see you! If you're slightly outside this range but still in high school, email us at equinox@example.com and we'll figure it out.",
+    a: "If you're a teenager (ages 13-19), yes — we can't wait to see you! If you're slightly outside this range but still in high school, email us at equinoxhackathon2026@gmail.com and we'll figure it out.",
   },
   {
     q: "Does it cost anything?",
@@ -32,11 +32,11 @@ const faqs = [
   },
   {
     q: "My parents are worried — can they contact you?",
-    a: "Of course! Have them email us at equinox@example.com and we'll answer all their questions. Safety is our top priority and we'll have adult supervisors present throughout the event.",
+    a: "Of course! Have them email us at equinoxhackathon2026@gmail.com and we'll answer all their questions. Safety is our top priority and we'll have adult supervisors present throughout the event.",
   },
   {
     q: "How can I contact you with more questions?",
-    a: "Email us anytime at equinox@example.com, or hop into our Discord server at discord.gg/V689CZHVac — we're always happy to help!",
+    a: "Email us anytime at equinoxhackathon2026@gmail.com, or hop into our Discord server at discord.gg/V689CZHVac — we're always happy to help!",
   },
 ]
 

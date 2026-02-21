@@ -55,7 +55,7 @@ export function Footer() {
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8.12 20.32c-1.93-.16-3.56-1.06-4.76-2.51A21.1 21.1 0 0 1 1 11.42a.75.75 0 0 1 .43-.67A17.07 17.07 0 0 1 7.4 8.58l.47 1.43a12 12 0 0 0-2.05.68 .38.38 0 0 0 .33.67A14.5 14.5 0 0 1 12 10a14.5 14.5 0 0 1 5.85 1.36.38.38 0 0 0 .33-.67 12 12 0 0 0-2.05-.68l.47-1.43a17.07 17.07 0 0 1 5.97 2.17.75.75 0 0 1 .43.67 21.1 21.1 0 0 1-2.36 6.39c-1.2 1.45-2.83 2.35-4.76 2.51l-.98-1.47c.8-.26 1.54-.62 2.2-1.07a.38.38 0 0 0-.4-.64A13.2 13.2 0 0 1 12 19a13.2 13.2 0 0 1-4.7-1.14.38.38 0 0 0-.4.64c.66.45 1.4.81 2.2 1.07z"/><circle cx="9.5" cy="14.5" r="1.5"/><circle cx="14.5" cy="14.5" r="1.5"/></svg>
           </a>
           <a
-            href="mailto:equinox@example.com"
+            href="mailto:equinoxhackathon2026@gmail.com"
             className="text-muted-foreground transition-colors hover:text-foreground"
             aria-label="Email"
           >
