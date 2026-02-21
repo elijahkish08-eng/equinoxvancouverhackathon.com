@@ -32,10 +32,10 @@ export function PastEventsSection() {
             <div className="flex flex-col justify-center gap-6 p-6 md:p-10">
               <div>
                 <h3 className="mb-2 text-2xl font-bold text-foreground md:text-3xl">
-                  Counterspell Vancouver Hackathon
+                  Counterspell Vancouver, British Columbia Hackathon
                 </h3>
                 <p className="text-base leading-relaxed text-muted-foreground">
-                  The largest high school game jam in Western Canada. Teens came
+                  The largest high school game jam in Western Canada. Teenagers came
                   together to build games from scratch in a single day, learning
                   to code, collaborating with new friends, and showcasing their
                   creativity.
@@ -46,7 +46,7 @@ export function PastEventsSection() {
                 <Card className="border-border bg-background">
                   <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
                     <CalendarDays className="h-5 w-5 text-primary" />
-                    <span className="text-lg font-bold text-foreground">Nov 24, 2024</span>
+                    <span className="text-lg font-bold text-foreground">November 24, 2024</span>
                     <span className="text-xs text-muted-foreground">Event Date</span>
                   </CardContent>
                 </Card>
