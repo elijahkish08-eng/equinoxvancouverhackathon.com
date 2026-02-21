@@ -9,7 +9,7 @@ const faqs = [
     a: "Equinox Vancouver Hackathon 2026 is Vancouver\u2019s premier beginner-friendly hackathon designed exclusively for teenagers. It\u2019s an all-day event on March 7, 2026 where students come together to build projects, learn to code, attend workshops, and make lifelong friends \u2014 all in one incredible day. Whether you\u2019re a first-time coder or an experienced developer, Equinox provides mentorship, food, swag, and everything you need to turn your ideas into reality.",
   },
   {
-    q: "Where is Equinox Vancouver taking place?",
+    q: "Where is Equinox Vancouver taking place in 2026?",
     a: "Equinox Vancouver Hackathon is taking place at 200 \u2013 1490 W Broadway, Vancouver, BC. The venue is conveniently located on West Broadway and is easily accessible by transit. The event runs on March 7, 2026 from 9:00 AM to 6:30 PM.",
   },
   {

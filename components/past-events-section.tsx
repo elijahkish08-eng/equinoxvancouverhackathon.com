@@ -61,7 +61,7 @@ export function PastEventsSection() {
                   <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
                     <Trophy className="h-5 w-5 text-primary" />
                     <span className="text-lg font-bold text-foreground">Largest</span>
-                    <span className="text-xs text-muted-foreground">HS Game Jam in W. Canada</span>
+                    <span className="text-xs text-muted-foreground">High School Game Jam in Western Canada</span>
                   </CardContent>
                 </Card>
               </div>

@@ -51,7 +51,8 @@ export function DonateSection() {
             <Button
               asChild
               size="lg"
-              className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-base h-14 shadow-md"
+              className="w-full font-semibold text-base h-14 shadow-md"
+              style={{ backgroundColor: '#f472b6', color: '#ffffff' }}
             >
               <a
                 href="https://hcb.hackclub.com/donations/start/equinox-vancouver-hackathon"
