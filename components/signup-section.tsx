@@ -5,8 +5,18 @@ const TALLY_URL = "https://tally.so/r/xXpzlk"
 
 export function SignupSection() {
   return (
-    <section id="signup" className="bg-secondary px-4 py-24">
-      <div className="mx-auto max-w-2xl text-center">
+    <section id="signup" className="relative overflow-hidden px-4 py-24">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src="/images/hackathon-group.webp"
+          alt=""
+          className="h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-secondary/85" />
+      </div>
+
+      <div className="relative z-10 mx-auto max-w-2xl text-center">
         <span className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
           Sign Up
         </span>
