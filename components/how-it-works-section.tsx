@@ -35,8 +35,18 @@ const steps = [
 
 export function HowItWorksSection() {
   return (
-    <section className="bg-secondary px-4 py-24">
-      <div className="mx-auto max-w-6xl">
+    <section className="relative overflow-hidden px-4 py-24">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src="/images/hackathon-group.webp"
+          alt=""
+          className="h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-secondary/90 backdrop-blur-sm" />
+      </div>
+
+      <div className="relative z-10 mx-auto max-w-6xl">
         <div className="mb-16 text-center">
           <span className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
             How It Works
