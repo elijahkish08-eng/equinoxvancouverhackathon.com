@@ -24,7 +24,7 @@ export function Footer() {
           <a href="#schedule" className="text-muted-foreground transition-colors hover:text-foreground">
             Schedule
           </a>
-          <a href="#signup" className="text-muted-foreground transition-colors hover:text-foreground">
+          <a href="https://tally.so/r/xXpzlk" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-foreground">
             Sign Up
           </a>
           <a href="#faq" className="text-muted-foreground transition-colors hover:text-foreground">

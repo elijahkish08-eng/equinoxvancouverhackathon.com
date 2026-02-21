@@ -36,7 +36,7 @@ export function Navbar() {
             </a>
           ))}
           <Button asChild size="sm" className="ml-2 bg-primary text-primary-foreground hover:bg-primary/90">
-            <a href="#signup">Sign Up</a>
+            <a href="https://tally.so/r/xXpzlk" target="_blank" rel="noopener noreferrer">Sign Up</a>
           </Button>
         </div>
 
@@ -63,7 +63,7 @@ export function Navbar() {
               </a>
             ))}
             <Button asChild size="sm" className="mt-2 bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="#signup" onClick={() => setMobileOpen(false)}>Sign Up</a>
+              <a href="https://tally.so/r/xXpzlk" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>Sign Up</a>
             </Button>
           </div>
         </div>
