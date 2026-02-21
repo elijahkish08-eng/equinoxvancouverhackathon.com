@@ -42,9 +42,6 @@ export function HeroSection() {
           <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base font-semibold">
             <a href="https://tally.so/r/xXpzlk" target="_blank" rel="noopener noreferrer">Sign Up — {"It's Free!"}</a>
           </Button>
-          <Button asChild variant="outline" size="lg" className="border-spring-cream/30 text-spring-cream hover:bg-spring-cream/10 px-8 text-base">
-            <a href="#about">Learn More</a>
-          </Button>
         </div>
 
         <div className="mt-8 flex flex-col items-center gap-4 text-sm text-spring-cream/60 sm:flex-row sm:justify-center sm:gap-6">
