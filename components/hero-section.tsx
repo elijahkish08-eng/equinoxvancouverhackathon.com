@@ -8,8 +8,13 @@ export function HeroSection() {
     <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 text-center">
       {/* Background image with overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
+        className="absolute inset-0 bg-cover bg-center md:bg-contain lg:bg-cover"
+        style={{ 
+          backgroundImage: "url('/images/hero-bg.jpg')",
+          backgroundAttachment: 'fixed',
+          backgroundPosition: 'center',
+          backgroundSize: 'cover'
+        }}
       >
         <div className="absolute inset-0 bg-foreground/60" />
       </div>
