@@ -69,7 +69,7 @@ export function SignupSection() {
             variant="outline"
             className="w-full font-semibold text-base border-primary text-primary hover:bg-primary/5"
           >
-            <a href="https://discord.gg/V689CZHVac" target="_blank" rel="noopener noreferrer" onClick={handleDiscordClick}>
+            <a href="https://discord.gg/BKuz26yxdN" target="_blank" rel="noopener noreferrer" onClick={handleDiscordClick}>
               Join the Discord
             </a>
           </Button>

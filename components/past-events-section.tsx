@@ -53,7 +53,7 @@ export function PastEventsSection() {
 
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 <Card className="border-border bg-background">
-                  <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
+                  <CardContent className="flex flex-col justify-center items-center gap-1 p-4 text-center">
                     <CalendarDays className="h-5 w-5 text-primary" />
                     <span className="text-lg font-bold text-foreground">
                       November 24, 2024

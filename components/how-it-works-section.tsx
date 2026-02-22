@@ -11,7 +11,18 @@ const steps = [
     icon: Users,
     step: "02",
     title: "Find a Team",
-    description: "Meet other teenagers at the event and form your dream team.",
+    description: (
+      <>Meet other teenagers in{" "}
+      <a
+        href="https://discord.gg/BKuz26yxdN"
+        className="underline"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Discord
+      </a>{" "}
+      and form your dream team.</>
+    ),
   },
   {
     icon: Wrench,
@@ -45,8 +56,8 @@ export function HowItWorksSection() {
             How does a teen hackathon work?
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            {"It's"} simpler than you think. Here are the steps to get from
-            sign-up to demo day at the Equinox Vancouver Hackathon.
+            {"It's"} simpler than you think. From sign-up to creating your {"project—here's "}
+            your path at the Equinox Vancouver Hackathon.
           </p>
         </div>
 

@@ -59,7 +59,7 @@ export function HomePageJsonLd() {
     email: "equinoxhackathon2026@gmail.com",
     sameAs: [
       "https://www.instagram.com/equinoxvancouverhackathon",
-      "https://discord.gg/V689CZHVac",
+      "https://discord.gg/BKuz26yxdN",
     ],
     description:
       "Equinox Vancouver organizes beginner-friendly hackathons for teenagers in Vancouver, BC. Free coding events for high school students featuring workshops, mentors, and prizes.",

@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: "How can I contact you with more questions?",
-    a: "Email us anytime at equinoxhackathon2026@gmail.com, or hop into our Discord server at discord.gg/V689CZHVac \u2014 we\u2019re always happy to help!",
+    a: "Email us anytime at equinoxhackathon2026@gmail.com, or hop into our Discord server at discord.gg/BKuz26yxdN \u2014 we\u2019re always happy to help!",
   },
 ]
 
