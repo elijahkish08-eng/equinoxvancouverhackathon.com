@@ -40,7 +40,7 @@ const steps = [
     icon: Trophy,
     step: "05",
     title: "Ship & Share",
-    description: "Demo your project and share what you built with everyone!",
+    description: "Pitch your project and share what you built with everyone!",
   },
 ]
 
