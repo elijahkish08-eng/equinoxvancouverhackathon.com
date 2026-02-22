@@ -32,16 +32,20 @@ export function HeroSection() {
           March 7, 2026
         </div>
 
-        <h1 className="mb-4 text-5xl font-bold leading-tight tracking-tight text-spring-cream md:text-7xl lg:text-8xl">
-          <span className="text-balance">EQUINOX</span>
+        <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-spring-cream md:text-5xl lg:text-6xl">
+          <span className="text-balance">Hackathon in Vancouver 2026 – Register Now</span>
         </h1>
+
+        <p className="mb-1 text-4xl font-bold tracking-tight text-spring-cream md:text-6xl lg:text-7xl">
+          EQUINOX
+        </p>
 
         <p className="mb-2 text-xl font-semibold tracking-wide text-spring-sunshine md:text-2xl">
           VANCOUVER HACKATHON
         </p>
 
         <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-spring-cream/80 md:text-lg">
-          A beginner-friendly hackathon for teenagers. Build projects, learn to code, and make lifelong friends — all in one incredible day.
+          A beginner-friendly hackathon for teenagers in Vancouver, BC. Build projects, learn to code, and make lifelong friends — all in one incredible day. Free registration open now.
         </p>
 
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">

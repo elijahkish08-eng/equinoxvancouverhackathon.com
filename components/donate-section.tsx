@@ -18,12 +18,12 @@ export function DonateSection() {
             Support Us
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            Help us make Equinox happen
+            Support the Equinox Vancouver Hackathon
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Equinox Vancouver is completely free for attendees. Your donation
+            Equinox Vancouver Hackathon 2026 is completely free for teen attendees. Your donation
             helps cover food, venue, swag, and all the things that make this
-            event unforgettable for teenagers.
+            youth hackathon in Vancouver unforgettable for high school students.
           </p>
         </div>
 

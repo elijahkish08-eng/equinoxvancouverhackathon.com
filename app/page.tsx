@@ -1,3 +1,4 @@
+import { HomePageJsonLd } from "@/components/structured-data"
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
 import { AboutSection } from "@/components/about-section"
@@ -14,6 +15,7 @@ import { Footer } from "@/components/footer"
 export default function Home() {
   return (
     <main>
+      <HomePageJsonLd />
       <Navbar />
       <HeroSection />
       <AboutSection />

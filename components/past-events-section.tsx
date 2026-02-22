@@ -10,10 +10,10 @@ export function PastEventsSection() {
             Our Track Record
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            Past events we have done
+            Past hackathon events in Vancouver
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            {"We've already organized a successful large-scale hackathon — and we're just getting started."}
+            {"The Equinox team has already organized a successful large-scale teen hackathon in Vancouver — and we're just getting started."}
           </p>
         </div>
 

@@ -5,6 +5,7 @@ import { notFound } from "next/navigation"
 import { getBlogPostBySlug, getAllBlogPosts } from "@/lib/blog-data"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { BlogPostJsonLd } from "@/components/structured-data"
 import { ArrowLeft, Calendar, User } from "lucide-react"
 
 export async function generateStaticParams() {
@@ -21,8 +22,26 @@ export async function generateMetadata({
   const post = getBlogPostBySlug(slug)
   if (!post) return { title: "Post Not Found" }
   return {
-    title: `${post.title} | Equinox Vancouver Hackathon`,
+    title: post.title,
     description: post.description,
+    alternates: {
+      canonical: `/blogposts/${slug}`,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      type: "article",
+      publishedTime: post.datePublished,
+      authors: [post.author],
+      images: [
+        {
+          url: post.heroImage,
+          width: 1200,
+          height: 630,
+          alt: post.heroImageAlt,
+        },
+      ],
+    },
   }
 }
 
@@ -40,6 +59,14 @@ export default async function BlogPostPage({
 
   return (
     <main>
+      <BlogPostJsonLd
+        title={post.title}
+        description={post.description}
+        author={post.author}
+        datePublished={post.datePublished}
+        heroImage={post.heroImage}
+        slug={post.slug}
+      />
       <Navbar />
       <article className="px-4 pt-32 pb-24">
         <div className="mx-auto max-w-3xl">

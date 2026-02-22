@@ -6,11 +6,11 @@ import { ChevronDown } from "lucide-react"
 const faqs = [
   {
     q: "What is Equinox Vancouver Hackathon 2026?",
-    a: "Equinox Vancouver Hackathon 2026 is Vancouver\u2019s premier beginner-friendly hackathon designed exclusively for teenagers. It\u2019s an all-day event on March 7, 2026 where students come together to build projects, learn to code, attend workshops, and make lifelong friends \u2014 all in one incredible day. Whether you\u2019re a first-time coder or an experienced developer, Equinox provides mentorship, food, swag, and everything you need to turn your ideas into reality.",
+    a: "Equinox Vancouver Hackathon 2026 is Vancouver\u2019s premier beginner-friendly hackathon designed exclusively for teenagers. It\u2019s an all-day event on March 7, 2026 where students come together to build projects, learn to code, attend workshops, and make lifelong friends \u2014 all in one incredible day.",
   },
   {
     q: "Where is Equinox Vancouver taking place in 2026?",
-    a: "Equinox Vancouver Hackathon is taking place at 200 \u2013 1490 W Broadway, Vancouver, BC. The venue is conveniently located on West Broadway and is easily accessible by transit. The event runs on March 7, 2026 from 9:00 AM to 6:30 PM.",
+    a: "Equinox Vancouver Hackathon is taking place at 200 \u2013 1490 W Broadway, Vancouver, BC. The venue is conveniently located on West Broadway and is easily accessible by transit.",
   },
   {
     q: "Am I eligible to participate?",
@@ -94,11 +94,11 @@ export function FaqSection() {
             FAQ
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            Frequently asked questions
+            Equinox Vancouver Hackathon FAQ
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Got questions? {"We've"} got answers. If you {"don't"} find what
-            {"you're"} looking for, feel free to email us.
+            Got questions about the hackathon? {"We've"} got answers. If you {"don't"} find what
+            {"you're"} looking for, email us at equinoxhackathon2026@gmail.com.
           </p>
         </div>
 

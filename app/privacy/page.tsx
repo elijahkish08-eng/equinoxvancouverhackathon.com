@@ -3,9 +3,12 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Equinox Vancouver Hackathon",
+  title: "Privacy Policy",
   description:
-    "Privacy Policy for the Equinox Vancouver Hackathon 2026 website.",
+    "Privacy Policy for the Equinox Vancouver Hackathon 2026 website. Learn how we protect your data.",
+  alternates: {
+    canonical: "/privacy",
+  },
 }
 
 export default function PrivacyPolicyPage() {

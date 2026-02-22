@@ -21,10 +21,10 @@ export function SignupSection() {
           Sign Up
         </span>
         <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-          Join Equinox Vancouver
+          Register for Equinox Vancouver Hackathon 2026
         </h2>
         <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          Spots are limited! Register now to secure your place at {"Vancouver's"} spring hackathon on March 7th, 2026. {"It's"} completely free.
+          Spots are limited! Register now to secure your place at {"Vancouver's"} premier teen hackathon on March 7th, 2026. Free registration for high school students aged 13-19.
         </p>
 
         <div className="mx-auto mb-8 flex max-w-md flex-col items-center gap-3 rounded-2xl border border-border bg-card p-8">

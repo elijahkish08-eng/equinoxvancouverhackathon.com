@@ -49,14 +49,14 @@ export function AboutSection() {
             About Equinox
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            Build projects, make friends
+            Build projects, make friends at Vancouver{"'"}s hackathon
           </h2>
           <p className="mx-auto max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Equinox Vancouver is a beginner-friendly hackathon for high schoolers
+            Equinox Vancouver is a beginner-friendly teen hackathon for high school students
             where coders, designers, and creators come together to build amazing
-            projects in a single day. Happening on{" "}
+            projects in a single day. Join the largest youth hackathon in Vancouver on{" "}
             <strong className="text-foreground">March 7th, 2026</strong> in
-            Vancouver, BC.
+            Vancouver, BC — completely free for all teenagers aged 13-19.
           </p>
         </div>
 

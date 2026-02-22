@@ -37,11 +37,11 @@ export function TeamSection() {
             Our Team
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            Meet the Team
+            Meet the Equinox Vancouver Hackathon Team
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            The passionate teenagers behind Equinox Vancouver, working to
-            create an unforgettable hackathon experience.
+            The passionate teenagers behind Equinox Vancouver Hackathon 2026, working to
+            create an unforgettable youth hackathon experience in Vancouver, BC.
           </p>
         </div>
 

@@ -7,9 +7,12 @@ import { Footer } from "@/components/footer"
 import { ArrowRight, Calendar, User } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Blog | Equinox Vancouver Hackathon",
+  title: "Hackathon Blog — Tips, Project Ideas & Vancouver Youth Tech",
   description:
-    "Read articles about hackathon tips, project ideas, and the Vancouver youth tech scene.",
+    "Read articles about hackathon project ideas for high school students, teen coding tips, and the Vancouver youth tech scene. Resources from Equinox Vancouver Hackathon 2026.",
+  alternates: {
+    canonical: "/blogs",
+  },
 }
 
 export default function BlogsPage() {

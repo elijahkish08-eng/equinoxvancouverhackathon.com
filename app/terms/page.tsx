@@ -3,9 +3,12 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Equinox Vancouver Hackathon",
+  title: "Terms of Service",
   description:
-    "Terms of Service for the Equinox Vancouver Hackathon 2026 website.",
+    "Terms of Service for the Equinox Vancouver Hackathon 2026 website and event participation.",
+  alternates: {
+    canonical: "/terms",
+  },
 }
 
 export default function TermsOfServicePage() {
