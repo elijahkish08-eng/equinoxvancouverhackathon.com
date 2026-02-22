@@ -16,11 +16,11 @@ export function VenueSection() {
             Venue
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            Where to find us
+            Hackathon venue in Vancouver, BC
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Equinox Vancouver is happening at a single, easy-to-reach location
-            right on West Broadway.
+            Equinox Vancouver Hackathon 2026 is happening at a single, easy-to-reach location
+            right on West Broadway — accessible by transit for all teen participants.
           </p>
         </div>
 

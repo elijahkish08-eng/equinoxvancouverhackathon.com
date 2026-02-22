@@ -25,11 +25,11 @@ export function ScheduleSection() {
             Schedule
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            {"Here's"} what to expect
+            Hackathon schedule — {"here's"} what to expect
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            One day packed with building, learning, and fun. All events happen
-            on <strong className="text-foreground">Saturday, March 7th, 2026</strong>.
+            One day packed with coding workshops, team building, and fun at the Equinox Vancouver Hackathon. All events happen
+            on <strong className="text-foreground">Saturday, March 7th, 2026</strong> in Vancouver, BC.
           </p>
         </div>
 
