@@ -32,7 +32,14 @@ export function PastEventsSection() {
             <div className="flex flex-col justify-center gap-6 p-6 md:p-10">
               <div>
                 <h3 className="mb-2 text-2xl font-bold text-foreground md:text-3xl">
-                  Counterspell Vancouver, British Columbia Hackathon
+                  <a 
+                    href="https://counterspell.hackclub.com/vancouver" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors underline-offset-4 hover:underline"
+                  >
+                    Counterspell Vancouver, British Columbia
+                  </a>
                 </h3>
                 <p className="text-base leading-relaxed text-muted-foreground">
                   The largest high school game jam in Western Canada. Teenagers came

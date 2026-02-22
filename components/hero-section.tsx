@@ -32,21 +32,17 @@ export function HeroSection() {
           March 7, 2026
         </div>
 
-        <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-spring-cream md:text-5xl lg:text-6xl">
-          <span className="text-balance">Hackathon in Vancouver 2026 – Register Now</span>
-        </h1>
-
         <p className="mb-1 text-4xl font-bold tracking-tight text-spring-cream md:text-6xl lg:text-7xl">
           EQUINOX
         </p>
 
-        <p className="mb-2 text-xl font-semibold tracking-wide text-spring-sunshine md:text-2xl">
+        <p className="mb-6 text-xl font-semibold tracking-wide text-spring-sunshine md:text-2xl">
           VANCOUVER HACKATHON
         </p>
 
-        <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-spring-cream/80 md:text-lg">
-          A beginner-friendly hackathon for teenagers in Vancouver, BC. Build projects, learn to code, and make lifelong friends — all in one incredible day. Free registration open now.
-        </p>
+        <h1 className="mx-auto mb-8 max-w-2xl text-xl leading-relaxed text-spring-cream md:text-2xl lg:text-3xl font-medium text-balance">
+          A beginner-friendly hackathon for teens—build projects, learn to code, and make friends in one amazing day. Free registration open now.
+        </h1>
 
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base font-semibold">
