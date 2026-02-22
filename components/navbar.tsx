@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { usePathname } from "next/navigation"
 import { Menu, X, Leaf } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -14,11 +15,15 @@ const navLinks = [
 
 export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const pathname = usePathname()
+  const isHome = pathname === "/"
+
+  const getHref = (hash: string) => (isHome ? hash : `/${hash}`)
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <a href="#" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <Leaf className="h-6 w-6 text-primary" />
           <span className="text-lg font-bold tracking-tight text-foreground">
             EQUINOX
@@ -29,7 +34,7 @@ export function Navbar() {
           {navLinks.map((link) => (
             <a
               key={link.href}
-              href={link.href}
+              href={getHref(link.href)}
               className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground hover:bg-secondary"
             >
               {link.label}
@@ -55,7 +60,7 @@ export function Navbar() {
             {navLinks.map((link) => (
               <a
                 key={link.href}
-                href={link.href}
+                href={getHref(link.href)}
                 onClick={() => setMobileOpen(false)}
                 className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground hover:bg-secondary"
               >

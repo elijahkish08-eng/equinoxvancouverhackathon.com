@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Heart, Sparkles, Coffee, Pizza, Laptop } from "lucide-react"
 
 const presetAmounts = [
-  { label: "$10", icon: Coffee, description: "Buys snacks for a hacker" },
-  { label: "$25", icon: Pizza, description: "Covers a meal for the whole event" },
-  { label: "$50", icon: Laptop, description: "Sponsors a hacker's full day" },
-  { label: "$100", icon: Sparkles, description: "Funds workshops & materials" },
+  { label: "$25", icon: Coffee, description: "Buys snacks for a hacker" },
+  { label: "$50", icon: Pizza, description: "Covers a meal for the whole event" },
+  { label: "$100", icon: Laptop, description: "Sponsors a hacker's full day" },
+  { label: "$500", icon: Sparkles, description: "Funds workshops & materials" },
 ]
 
 export function DonateSection() {
@@ -18,12 +18,12 @@ export function DonateSection() {
             Support Us
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            Help us make Equinox happen
+            Support the Equinox Vancouver Hackathon
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Equinox Vancouver is completely free for attendees. Your donation
+            Equinox Vancouver Hackathon 2026 is completely free for teen attendees. Your donation
             helps cover food, venue, swag, and all the things that make this
-            event unforgettable for teenagers.
+            youth hackathon in Vancouver unforgettable for high school students.
           </p>
         </div>
 
@@ -51,7 +51,8 @@ export function DonateSection() {
             <Button
               asChild
               size="lg"
-              className="w-full bg-accent text-accent-foreground hover:bg-accent/90 font-semibold text-base h-14"
+              className="w-full font-semibold text-base h-14 shadow-md"
+              style={{ backgroundColor: '#f472b6', color: '#ffffff' }}
             >
               <a
                 href="https://hcb.hackclub.com/donations/start/equinox-vancouver-hackathon"

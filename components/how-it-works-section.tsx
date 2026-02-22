@@ -42,11 +42,11 @@ export function HowItWorksSection() {
             How It Works
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            How does a hackathon work?
+            How does a teen hackathon work?
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
             {"It's"} simpler than you think. Here are the steps to get from
-            sign-up to demo day.
+            sign-up to demo day at the Equinox Vancouver Hackathon.
           </p>
         </div>
 

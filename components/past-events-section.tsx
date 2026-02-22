@@ -10,10 +10,10 @@ export function PastEventsSection() {
             Our Track Record
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-            Past events we have done
+            Past hackathon events in Vancouver
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            {"We've already organized a successful large-scale hackathon — and we're just getting started."}
+            {"The Equinox team has already organized a successful large-scale teen hackathon in Vancouver — and we're just getting started."}
           </p>
         </div>
 
@@ -32,7 +32,14 @@ export function PastEventsSection() {
             <div className="flex flex-col justify-center gap-6 p-6 md:p-10">
               <div>
                 <h3 className="mb-2 text-2xl font-bold text-foreground md:text-3xl">
-                  Counterspell Vancouver, British Columbia Hackathon
+                  <a 
+                    href="https://counterspell.hackclub.com/vancouver" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors underline-offset-4 hover:underline"
+                  >
+                    Counterspell Vancouver, British Columbia
+                  </a>
                 </h3>
                 <p className="text-base leading-relaxed text-muted-foreground">
                   The largest high school game jam in Western Canada. Teenagers came
@@ -61,7 +68,7 @@ export function PastEventsSection() {
                   <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
                     <Trophy className="h-5 w-5 text-primary" />
                     <span className="text-lg font-bold text-foreground">Largest</span>
-                    <span className="text-xs text-muted-foreground">HS Game Jam in W. Canada</span>
+                    <span className="text-xs text-muted-foreground">High School Game Jam in Western Canada</span>
                   </CardContent>
                 </Card>
               </div>
