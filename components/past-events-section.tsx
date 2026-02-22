@@ -1,5 +1,5 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { CalendarDays, DollarSign, Trophy } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card";
+import { CalendarDays, DollarSign, Trophy } from "lucide-react";
 
 export function PastEventsSection() {
   return (
@@ -13,7 +13,9 @@ export function PastEventsSection() {
             Past hackathon events in Vancouver
           </h2>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            {"The Equinox team has already organized a successful large-scale teen hackathon in Vancouver — and we're just getting started."}
+            {
+              "The Equinox team has already organized a successful large-scale teen hackathon in Vancouver — and we're just getting started."
+            }
           </p>
         </div>
 
@@ -32,20 +34,20 @@ export function PastEventsSection() {
             <div className="flex flex-col justify-center gap-6 p-6 md:p-10">
               <div>
                 <h3 className="mb-2 text-2xl font-bold text-foreground md:text-3xl">
-                  <a 
-                    href="https://counterspell.hackclub.com/vancouver" 
-                    target="_blank" 
+                  <a
+                    href="https://counterspell.hackclub.com/vancouver"
+                    target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-primary transition-colors underline-offset-4 hover:underline"
+                    className="text-primary md:text-foreground hover:text-primary transition-colors underline-offset-4 underline hover:underline"
                   >
                     Counterspell Vancouver, British Columbia
                   </a>
                 </h3>
                 <p className="text-base leading-relaxed text-muted-foreground">
-                  The largest high school game jam in Western Canada. Teenagers came
-                  together to build games from scratch in a single day, learning
-                  to code, collaborating with new friends, and showcasing their
-                  creativity.
+                  The largest high school game jam in Western Canada. Teenagers
+                  came together to build games from scratch in a single day,
+                  learning to code, collaborating with new friends, and
+                  showcasing their creativity.
                 </p>
               </div>
 
@@ -53,22 +55,34 @@ export function PastEventsSection() {
                 <Card className="border-border bg-background">
                   <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
                     <CalendarDays className="h-5 w-5 text-primary" />
-                    <span className="text-lg font-bold text-foreground">November 24, 2024</span>
-                    <span className="text-xs text-muted-foreground">Event Date</span>
+                    <span className="text-lg font-bold text-foreground">
+                      November 24, 2024
+                    </span>
+                    <span className="text-xs text-muted-foreground">
+                      Event Date
+                    </span>
                   </CardContent>
                 </Card>
                 <Card className="border-border bg-background">
                   <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
                     <DollarSign className="h-5 w-5 text-primary" />
-                    <span className="text-lg font-bold text-foreground">$3,000</span>
-                    <span className="text-xs text-muted-foreground">Raised</span>
+                    <span className="text-lg font-bold text-foreground">
+                      $3,000
+                    </span>
+                    <span className="text-xs text-muted-foreground">
+                      Raised
+                    </span>
                   </CardContent>
                 </Card>
                 <Card className="border-border bg-background">
                   <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
                     <Trophy className="h-5 w-5 text-primary" />
-                    <span className="text-lg font-bold text-foreground">Largest</span>
-                    <span className="text-xs text-muted-foreground">High School Game Jam in Western Canada</span>
+                    <span className="text-lg font-bold text-foreground">
+                      Largest
+                    </span>
+                    <span className="text-xs text-muted-foreground">
+                      High School Game Jam in Western Canada
+                    </span>
                   </CardContent>
                 </Card>
               </div>
@@ -77,5 +91,5 @@ export function PastEventsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

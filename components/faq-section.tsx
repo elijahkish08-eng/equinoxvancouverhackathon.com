@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { ChevronDown } from "lucide-react"
+import posthog from "posthog-js"
 
 const faqs = [
   {
@@ -49,6 +50,16 @@ const faqs = [
 function FaqCard({ question, answer }: { question: string; answer: string }) {
   const [isOpen, setIsOpen] = useState(false)
 
+  const handleToggle = () => {
+    const nextOpen = !isOpen
+    setIsOpen(nextOpen)
+    if (nextOpen) {
+      posthog.capture("faq_item_expanded", {
+        question,
+      })
+    }
+  }
+
   return (
     <div
       className="group rounded-xl border border-border bg-card transition-all duration-300 hover:border-primary/30 hover:shadow-sm"
@@ -58,7 +69,7 @@ function FaqCard({ question, answer }: { question: string; answer: string }) {
       <button
         type="button"
         className="flex w-full items-center justify-between gap-4 p-5 text-left"
-        onClick={() => setIsOpen((prev) => !prev)}
+        onClick={handleToggle}
         aria-expanded={isOpen}
       >
         <span className="text-base font-medium text-foreground group-hover:text-primary transition-colors">

@@ -2,13 +2,13 @@ import Image from "next/image"
 
 const teamMembers = [
   {
-    name: "Alex Chen",
-    role: "Lead Organizer",
+    name: "Shourya Wadhwa",
+    role: "Operations Director",
     image: "/images/team/member-1.jpg",
   },
   {
-    name: "Priya Sharma",
-    role: "Operations Director",
+    name: "Elijah Dumaquita",
+    role: "Operations Lead",
     image: "/images/team/member-2.jpg",
   },
   {

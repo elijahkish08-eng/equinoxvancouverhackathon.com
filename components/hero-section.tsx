@@ -1,33 +1,55 @@
-"use client"
+"use client";
 
-import { ArrowDown, CalendarDays, MapPin } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { ArrowDown, CalendarDays, MapPin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import posthog from "posthog-js";
+
+const TALLY_URL = "https://tally.so/r/xXpzlk";
 
 export function HeroSection() {
+  const handleSignUpClick = () => {
+    posthog.capture("registration_cta_clicked", {
+      source: "hero_section",
+      cta_text: "Sign Up — It's Free!",
+    });
+  };
+
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 text-center">
+    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 text-center pt-5 md:pt-24 scroll-mt-20 pb-20">
       {/* Background image with overlay */}
       <div
         className="absolute inset-0"
-        style={{ 
+        style={{
           backgroundImage: "url('/images/hero-bg.jpg')",
-          backgroundAttachment: 'scroll',
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat'
+          backgroundAttachment: "scroll",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="absolute inset-0 bg-foreground/60" />
       </div>
 
       {/* Decorative floating elements */}
-      <div className="absolute top-20 left-10 h-3 w-3 rounded-full bg-spring-blossom/40 animate-float" style={{ animationDelay: "0s" }} />
-      <div className="absolute top-40 right-16 h-4 w-4 rounded-full bg-spring-sunshine/40 animate-float" style={{ animationDelay: "1s" }} />
-      <div className="absolute bottom-32 left-20 h-2 w-2 rounded-full bg-spring-leaf/40 animate-float" style={{ animationDelay: "0.5s" }} />
-      <div className="absolute bottom-48 right-24 h-3 w-3 rounded-full bg-spring-blossom/30 animate-float" style={{ animationDelay: "1.5s" }} />
+      <div
+        className="absolute top-20 left-10 h-3 w-3 rounded-full bg-spring-blossom/40 animate-float"
+        style={{ animationDelay: "0s" }}
+      />
+      <div
+        className="absolute top-40 right-16 h-4 w-4 rounded-full bg-spring-sunshine/40 animate-float"
+        style={{ animationDelay: "1s" }}
+      />
+      <div
+        className="absolute bottom-32 left-20 h-2 w-2 rounded-full bg-spring-leaf/40 animate-float"
+        style={{ animationDelay: "0.5s" }}
+      />
+      <div
+        className="absolute bottom-48 right-24 h-3 w-3 rounded-full bg-spring-blossom/30 animate-float"
+        style={{ animationDelay: "1.5s" }}
+      />
 
       <div className="relative z-10 mx-auto max-w-4xl">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-spring-cream/20 bg-spring-cream/10 px-4 py-2 text-sm font-medium text-spring-cream backdrop-blur-sm">
+        <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-spring-cream/20 bg-spring-cream/10 px-4 py-2 text-sm font-medium text-spring-cream backdrop-blur-sm">
           <CalendarDays className="h-4 w-4" />
           March 7, 2026
         </div>
@@ -41,12 +63,24 @@ export function HeroSection() {
         </p>
 
         <h1 className="mx-auto mb-8 max-w-2xl text-xl leading-relaxed text-spring-cream md:text-2xl lg:text-3xl font-medium text-balance">
-          A beginner-friendly hackathon for teens—build projects, learn to code, and make friends in one amazing day. Free registration open now.
+         Free, beginner-friendly hackathon for teens—code, create,
+          and make friends in a day.
         </h1>
 
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base font-semibold">
-            <a href="https://tally.so/r/xXpzlk" target="_blank" rel="noopener noreferrer">Sign Up — {"It's Free!"}</a>
+          <Button
+            asChild
+            size="lg"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base font-semibold"
+          >
+            <a
+              href={TALLY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleSignUpClick}
+            >
+              Sign Up — {"It's Free!"}
+            </a>
           </Button>
         </div>
 
@@ -62,9 +96,13 @@ export function HeroSection() {
         </div>
       </div>
 
-      <a href="#about" className="absolute bottom-8 z-10 text-spring-cream/50 transition-colors hover:text-spring-cream" aria-label="Scroll down">
+      <a
+        href="#about"
+        className="absolute bottom-4 z-10 text-spring-cream/50 transition-colors hover:text-spring-cream"
+        aria-label="Scroll down"
+      >
         <ArrowDown className="h-6 w-6 animate-bounce" />
       </a>
     </section>
-  )
+  );
 }

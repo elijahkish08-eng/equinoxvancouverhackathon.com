@@ -1,9 +1,25 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Sparkles } from "lucide-react"
+import posthog from "posthog-js"
 
 const TALLY_URL = "https://tally.so/r/xXpzlk"
 
 export function SignupSection() {
+  const handleRegisterClick = () => {
+    posthog.capture("registration_cta_clicked", {
+      source: "signup_section",
+      cta_text: "Register Now",
+    })
+  }
+
+  const handleDiscordClick = () => {
+    posthog.capture("discord_join_clicked", {
+      source: "signup_section",
+    })
+  }
+
   return (
     <section id="signup" className="relative overflow-hidden px-4 py-24">
       {/* Background image */}
@@ -42,7 +58,7 @@ export function SignupSection() {
             size="lg"
             className="mt-2 w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-base"
           >
-            <a href={TALLY_URL} target="_blank" rel="noopener noreferrer">
+            <a href={TALLY_URL} target="_blank" rel="noopener noreferrer" onClick={handleRegisterClick}>
               Register Now
               <ExternalLink className="ml-2 h-4 w-4" />
             </a>
@@ -53,7 +69,7 @@ export function SignupSection() {
             variant="outline"
             className="w-full font-semibold text-base border-primary text-primary hover:bg-primary/5"
           >
-            <a href="https://discord.gg/V689CZHVac" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/V689CZHVac" target="_blank" rel="noopener noreferrer" onClick={handleDiscordClick}>
               Join the Discord
             </a>
           </Button>

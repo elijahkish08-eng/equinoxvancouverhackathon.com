@@ -1,6 +1,9 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Heart, Sparkles, Coffee, Pizza, Laptop } from "lucide-react"
+import posthog from "posthog-js"
 
 const presetAmounts = [
   { label: "$25", icon: Coffee, description: "Buys snacks for a hacker" },
@@ -10,6 +13,12 @@ const presetAmounts = [
 ]
 
 export function DonateSection() {
+  const handleDonateClick = () => {
+    posthog.capture("donation_cta_clicked", {
+      destination: "hcb_hackclub",
+    })
+  }
+
   return (
     <section id="donate" className="px-4 py-24">
       <div className="mx-auto max-w-3xl">
@@ -58,6 +67,7 @@ export function DonateSection() {
                 href="https://hcb.hackclub.com/donations/start/equinox-vancouver-hackathon"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={handleDonateClick}
               >
                 <Heart className="mr-2 h-5 w-5" />
                 Send a Support

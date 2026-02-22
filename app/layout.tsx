@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: 'Vancouver\'s premier free hackathon for teenagers. Build projects, learn to code, and make lifelong friends. March 7, 2026 — registration open now for high school students aged 13-19.',
     images: [
       {
-        url: '/images/hero-bg.jpg',
+        url: 'https://equinoxvancouver.com/images/hero-bg.jpg',
         width: 1200,
         height: 630,
         alt: 'Equinox Vancouver Hackathon 2026 — Hackathon for teenagers in Vancouver BC',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Hackathon in Vancouver 2026 | Equinox Vancouver Hackathon',
     description: 'Free beginner-friendly hackathon for teenagers in Vancouver, BC. Register now for March 7, 2026.',
-    images: ['/images/hero-bg.jpg'],
+    images: ['https://equinoxvancouver.com/images/hero-bg.jpg'],
   },
   robots: {
     index: true,
@@ -68,19 +68,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: 'https://equinoxvancouver.com/images/hero-bg.jpg',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: 'https://equinoxvancouver.com/images/hero-bg.jpg',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: 'https://equinoxvancouver.com/images/hero-bg.jpg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: 'https://equinoxvancouver.com/images/hero-bg.jpg',
   },
 }
 

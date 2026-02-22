@@ -6,5 +6,5 @@ Disallow: /secret/
 Disallow: /api/
 Disallow: /_next/
 Disallow: /private/
-Allow: /  # explicitly allow everything else
+Allow: /
 Sitemap: https://equinoxvancouverhackathon.com/sitemap.xml

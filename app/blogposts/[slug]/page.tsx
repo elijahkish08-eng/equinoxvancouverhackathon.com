@@ -6,6 +6,7 @@ import { getBlogPostBySlug, getAllBlogPosts } from "@/lib/blog-data"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { BlogPostJsonLd } from "@/components/structured-data"
+import { BlogPostAnalytics, BlogSignupCtaButton } from "@/components/blog-post-analytics"
 import { ArrowLeft, Calendar, User } from "lucide-react"
 
 export async function generateStaticParams() {
@@ -67,6 +68,7 @@ export default async function BlogPostPage({
         heroImage={post.heroImage}
         slug={post.slug}
       />
+      <BlogPostAnalytics slug={post.slug} title={post.title} />
       <Navbar />
       <article className="px-4 pt-32 pb-24">
         <div className="mx-auto max-w-3xl">
@@ -177,14 +179,7 @@ export default async function BlogPostPage({
             <p className="mb-6 text-muted-foreground leading-relaxed">
               Sign up for Equinox Vancouver Hackathon 2026 and put your ideas into action.
             </p>
-            <a
-              href="https://tally.so/r/xXpzlk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
-            >
-              Sign Up Now
-            </a>
+            <BlogSignupCtaButton />
           </div>
         </div>
       </article>
