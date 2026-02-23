@@ -78,8 +78,7 @@ export function Footer() {
           </a>
         </div>
 
-        <p className="text-xs text-muted-foreground">
-          Equinox Vancouver Hackathon 2026. Made with care in Vancouver, BC.
+
         </p>
       </div>
     </footer>
